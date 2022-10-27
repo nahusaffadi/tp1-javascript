@@ -47,7 +47,7 @@ pizzas.forEach((pizzas)=>{
 }
 )
 
-const pizzasMenos600 = pizzas.some(nombre => pizzas.precio < 600) 
+const pizzasMenos600 = pizzas.some(pizzas => pizzas.precio < 600) 
 
 console.log('Si hay pizzas que valen menos de $600:', pizzasMenos600)
 
